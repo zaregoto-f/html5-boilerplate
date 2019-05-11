@@ -1,5 +1,5 @@
 //from https://jsfiddle.net/311aLtkz/
-
+//test
     // Opera 8.0+
     var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
 
