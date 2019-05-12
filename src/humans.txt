@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <name> zaregoto <role> player <twitter> zerozak_i
 
 # THANKS
 
