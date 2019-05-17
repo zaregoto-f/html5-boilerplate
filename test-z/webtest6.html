@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>
+    演習6
+  </title>
+  <script type="text/javascript" src="webtest.js"></script>
+</head>
+<body>
+  <h1>アンケート</h1>
+  <p>以下のアンケートにお答え下さい。(*)は必須項目です。</p>
+  <form name="inputForm" onsubmit="return inputCheck()">
+    お住まいの都道府県を入力して下さい。(*)<br>
+    <input name="sumai" type='text' size=20><br>
+
+    性別：<input type="radio" name="gender" value="male">男性 <input type="radio" name="gender" value="female">女性<br>
+    感想をお聞かせ下さい。<select name="kansou">
+      <option value="good" selected>良かった</option>
+      <option value="ok">まあまあ</option>
+      <option value="bad">つまらない</option>
+    </select><br>
+    <br>
+    <br>
+    コメントがあればお願いします。<br>
+    <textarea rows=2 cols= 40></textarea><br>
+    メールマガジンの配信を希望：<input type="checkbox" name="magezine" value="1" checked=True onclick="mgzCheck()"><br>
+    週１回<input type="radio" name="mgz" value="weekly"> 月１回まとめて<input type="radio" name="mgz" value="monthly"><br>
+    <input type="submit" value="送信"> <input type="reset" value="リセット">
+  </form>
+  <p>ありがとうございました。</p>
+</body>
+</html>

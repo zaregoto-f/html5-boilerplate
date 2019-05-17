@@ -1,0 +1,15 @@
+body {
+background-image: url("./yokohama.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-position: right bottom
+}
+
+.koko {font-size:200%;background-color: aqua;}
+.koko:hover {background-color: blueviolet;}
+
+h3 {
+background-color: #000000
+}
